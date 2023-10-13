@@ -1,0 +1,91 @@
+/* navigation styles */
+body {
+    margin: 0px;
+}
+
+.navigation-wrapper {
+    height: 100px;
+    background-color: black;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-wrapper > .left-column img {
+    width: 200px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+.navigation-wrapper > .center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5px;
+    font-size: 1.7em;
+}
+
+.navigation-wrapper > .center-column > .links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.navigation-wrapper >.center-column >.explore {
+    color: goldenrod;
+    padding-left: 7px;
+}
+
+.links-wrapper > .nav-link a {
+    width: 100px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 7px;
+}
+
+
+
+.navigation-wrapper >.right-column > .button-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.navigation-wrapper >.right-column > .button-wrapper > .create-button .btn {
+    background-color: rgb(53, 53, 53);
+    width: 110px;
+    height: 50px;
+    font-size: 1.05em;
+    color: white;
+    border-color:transparent;
+    border-radius: 2px;
+    visibility: .5;
+}
+
+.navigation-wrapper >.right-column > .button-wrapper > .create-button .btn i{
+    color:rgb(118, 197, 118);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.navigation-wrapper >.right-column > .button-wrapper > .search-icon i{
+    color:gray;
+    font-size: 1.7em;
+    margin: 0px 12px;
+}
+
+.navigation-wrapper >.right-column > .button-wrapper > .login-signup-button > .btn {
+    background-color:rgb(53, 53, 53);
+    width: 110px;
+    height: 50px;
+    font-size: 1.05em;
+    color: white;
+    border-color: transparent;
+    border-radius: 3px;
+}
+
+
+
+
+
